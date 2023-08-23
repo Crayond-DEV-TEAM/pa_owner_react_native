@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "pa_owner_app.app"
-               BlueprintName = "pa_owner_app"
-               ReferencedContainer = "container:pa_owner_app.xcodeproj">
+               BuildableName = "app.pa_owner_dev.app"
+               BlueprintName = "app.pa_owner_dev"
+               ReferencedContainer = "container:app.pa_owner_dev.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "pa_owner_appTests.xctest"
-               BlueprintName = "pa_owner_appTests"
-               ReferencedContainer = "container:pa_owner_app.xcodeproj">
+               BuildableName = "app.pa_owner_devTests.xctest"
+               BlueprintName = "app.pa_owner_devTests"
+               ReferencedContainer = "container:app.pa_owner_dev.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pa_owner_app.app"
-            BlueprintName = "pa_owner_app"
-            ReferencedContainer = "container:pa_owner_app.xcodeproj">
+            BuildableName = "app.pa_owner_dev.app"
+            BlueprintName = "app.pa_owner_dev"
+            ReferencedContainer = "container:app.pa_owner_dev.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pa_owner_app.app"
-            BlueprintName = "pa_owner_app"
-            ReferencedContainer = "container:pa_owner_app.xcodeproj">
+            BuildableName = "app.pa_owner_dev.app"
+            BlueprintName = "app.pa_owner_dev"
+            ReferencedContainer = "container:app.pa_owner_dev.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.pa_owner_app"
+    namespace "com.app.pa_owner_dev"
     defaultConfig {
-        applicationId "com.pa_owner_app"
+        applicationId "com.app.pa_owner_dev"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

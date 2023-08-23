@@ -1,4 +1,4 @@
-package com.pa_owner_app;
+package com.app.pa_owner_dev;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
