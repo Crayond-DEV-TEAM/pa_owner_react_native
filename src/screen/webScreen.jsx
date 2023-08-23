@@ -27,6 +27,7 @@ const WebScreen = (props) => {
     const onMessage = (payload) => {
         console.log('payload asses', payload);
     };
+    
 
     const WebviewRender = () => {
         return <WebView
