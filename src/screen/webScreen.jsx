@@ -25,15 +25,14 @@ const WebScreen = (props) => {
     const { diviceToken } = props;
 
     const onMessage = (payload) => {
-        console.log('payload asses', payload);
+        // console.log('payload asses', payload);
     };
     
-
     const WebviewRender = () => {
         return <WebView
             injectedJavaScript={INJECTED_JAVASCRIPT}
             onMessage={onMessage}
-            source={{ uri: `https://owner.pms2.propgoto.com/` }} style={{ marginTop: 20 }} />
+            source={{ uri: `https://owner.pms2.propgoto.com/?deviceToken=${diviceToken}` }} style={{ marginTop: 20 }} />
         
     }
 
