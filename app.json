@@ -1,5 +1,5 @@
 {
   "//commit": "if ios com.app.pa-owner else android then app.pa_owner",
-  "name": "app.pa_owner",
+  "name": "com.app.pa-owner",
   "displayName": "PA Owner"
 }
