@@ -2,14 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationUsageDescription</key>
-	<string>To showcase their property location that they own</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>To showcase their property location that they own</string>
-	<key>NSCameraUsageDescription</key>
-    <string>Profile picture or to update the property images</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-    <string>Profile picture or to update the property images</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Owner</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -23,12 +19,6 @@
 			</array>
 		</dict>
 	</array>
-	<key>LSRequiresIPhoneOS</key><true/>
-	<key>LSSupportsOpeningDocumentsInPlace</key><true/>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleDisplayName</key>
-	<string>Owner</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -47,6 +37,8 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
@@ -58,8 +50,16 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Profile picture or to update the property images</string>
+	<key>NSLocationUsageDescription</key>
+	<string>To showcase their property location that they own</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>To showcase their property location that they own</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Profile picture or to update the property images</string>
+	<key>UIBackgroundModes</key>
+	<array/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
