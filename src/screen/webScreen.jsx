@@ -36,6 +36,7 @@ const WebScreen = (props) => {
     };
     
     const WebviewRender = () => {
+        //https://owner.pms2.propgoto.com (live url)
         return <WebView
             injectedJavaScript={INJECTED_JAVASCRIPT}
             onMessage={onMessage}
@@ -43,7 +44,7 @@ const WebScreen = (props) => {
             cacheEnabled={false}
             cacheMode={'LOAD_NO_CACHE'}
             style={{ marginTop: isIOS ? 0 : 10 }}
-            source={{ uri: `https://owner.pms2.propgoto.com/?deviceToken=${diviceToken}` }} />
+            source={{ uri: `https://dev-owner-v2.propertyautomate.com/?deviceToken=${diviceToken}` }} />
         
     }
 
