@@ -5,6 +5,7 @@ import {
     StatusBar,
     StyleSheet,
     ActivityIndicator,
+    Linking,
 } from 'react-native';
 
 import { WebView } from 'react-native-webview';
@@ -33,7 +34,17 @@ const WebScreen = (props) => {
         return <WebView
             injectedJavaScript={INJECTED_JAVASCRIPT}
             onMessage={onMessage}
-            source={{ uri: `https://dev-owner-v2.propertyautomate.com` }} style={{ marginTop: 20 }} />
+            source={{ uri: `https://owner.thabat.propgoto.com` }} 
+            onShouldStartLoadWithRequest={(event) => {
+                const { url } = event;
+                if (url.startsWith('tel:')) {
+                  // Intercept tel:// URLs and initiate phone calls
+                  Linking.openURL(url);
+                  return false; // Prevent the WebView from loading the URL
+                }
+                return true; // Allow other URLs to be loaded by the WebView
+              }}
+            style={{ marginTop: 20 }} />
         
     }
 
