@@ -1,6 +1,3 @@
-require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
-require_relative '../node_modules/react-native/scripts/react_native_pods'
-
 # Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
@@ -30,7 +27,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'app.pa_owner_dev' do
+target 'com.app.pa_owner_thabat' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -50,7 +47,7 @@ target 'app.pa_owner_dev' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'app.pa_owner_devTests' do
+  target 'com.app.pa_owner_thabatTests' do
     inherit! :complete
     # Pods for testing
   end
