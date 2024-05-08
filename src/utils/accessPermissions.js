@@ -57,6 +57,7 @@ export async function requestMicrophonePermission() {
     if (!MicrophonePermission) return null;
 
     const response = await check(MicrophonePermission);
+    console.log(response);
     if (response === RESULTS.GRANTED) return true;
     else {
       const result = await request(MicrophonePermission);
