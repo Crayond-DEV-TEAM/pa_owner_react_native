@@ -37,8 +37,12 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Camera is to scan the QR of appliances to raise a maintenance request for a broke asset</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We use location to show the distance between them and block they are residing in</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We use location to show the distance between them and block they are residing in</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>We use location to show the distance between them and block they are residing in</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>To intimate residents for visitors who are waiting outside the property</string>
 	<key>NSPhotoLibraryUsageDescription</key>

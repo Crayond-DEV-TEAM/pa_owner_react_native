@@ -31,7 +31,13 @@ export async function requestCameraPermission() {
         Alert.alert(
           'Permission Denied',
           'Need Camera Permissions to continue',
-          [{text: 'OK', onPress: () => openSettings()}],
+          [
+            {text: 'Ok', onPress: null, style: 'cancel'},
+            {
+              text: 'Open Setting',
+              onPress: () => openSettings(),
+            },
+          ],
           {cancelable: false},
         );
       }
@@ -66,7 +72,13 @@ export async function requestMicrophonePermission() {
         Alert.alert(
           'Permission Denied',
           'Need Microphone Permissions to continue',
-          [{text: 'OK', onPress: () => openSettings()}],
+          [
+            {text: 'Ok', onPress: null, style: 'cancel'},
+            {
+              text: 'Open Setting',
+              onPress: () => openSettings(),
+            },
+          ],
           {cancelable: false},
         );
       }
